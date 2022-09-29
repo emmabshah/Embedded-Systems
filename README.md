@@ -22,6 +22,9 @@ This repository contains both lab materials and code examples for all the Electr
 ---
 
 I am tired
+1)I went to bed at 3
+2)I am sick
+3)I woke up early
 
 
 
