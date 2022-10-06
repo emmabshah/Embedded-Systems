@@ -20,16 +20,81 @@ int main()
     //Repeat everything "forever" (until the power is removed or the chip is reset)
     while (true)
     {
-        //On for 500ms
+        //On for 250ms
         greenLED = 1;
         buzz.playTone("C");
-        wait_us(WAIT_TIME_MS * 1000);  //500ms
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
 
 
-        //Off for 500ms
+        //Off for 250ms
         greenLED = 0;
-        buzz.playTone("C", Buzzer::HIGHER_OCTAVE);
-        wait_us(WAIT_TIME_MS * 1000);  //500ms
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("D");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("E");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("F");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("G");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("A");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("B");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //On for 250ms
+        greenLED = 1;
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
+
+        //Off for 250ms
+        greenLED = 0;
+        wait_us(WAIT_TIME_MS * 1000);  //250ms
 
         //Pause
         buzz.rest();
