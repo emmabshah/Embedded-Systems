@@ -25,13 +25,26 @@ int main()
     wait_us(1000000);
 
     lcd.cls();
-    lcd.puts("TASK-104");
+    lcd.puts("PENIS");
 
     while (true)
     {
         red = !red;
+        wait_us(WAIT_TIME_MS * 10000);
+        red = 0;
+
         amber = !amber;
+        red = !red;
+        wait_us(WAIT_TIME_MS * 2000);
+        amber = 0;
+        red = 0;
+
         green = !green;
-        wait_us(WAIT_TIME_MS * 1000);
+        wait_us(WAIT_TIME_MS * 10000);
+        green = 0;
+
+        amber = !amber;
+        wait_us(WAIT_TIME_MS * 2000);
+        amber = 0;
     }
 }
