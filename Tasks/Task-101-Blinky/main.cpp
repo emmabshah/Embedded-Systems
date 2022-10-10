@@ -17,16 +17,13 @@ int main()
         //The code between the { curly braces } is the code that is repeated forever
 
         // Turn onboard LED ON  
-        redLED = 1; 
-        greenLED = 1;
         blueLED = 1;
 
         // Wait 0.5 second (1 million microseconds)
         wait_us(200000); 
 
         // Turn LED OFF
-        redLED = 0;
-        greenLED = 0;
+        blueLED = 0;
 
         // Wait 0.5 second
         wait_us(200000); 
