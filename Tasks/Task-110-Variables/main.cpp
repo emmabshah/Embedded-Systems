@@ -21,14 +21,14 @@ BusOut ledData(LED_D0_PIN, LED_D1_PIN, LED_D2_PIN, LED_D3_PIN, LED_D4_PIN, LED_D
 
 int main()
 {
-    printf("\nTASK-110\n");
+    printf("\nTASK-110\n \nTASK-110\n");
 
     // Integer
-    int count = 0;
+    int count = 10;
     printf("count = %d\n", count);
 
     // Add one to count
-    count = count + 1;
+    count = count + 2;
     printf("New value of count = %d\n", count);
 
     // Char
@@ -37,9 +37,9 @@ int main()
     printf("The character %c has the ASCII code %d\n", character, character);
 
     // Short
-    short shortCount = 32766;
+    unsigned short shortCount = 32766;
     printf("The value of shortCount is %hd\n", shortCount);
-    shortCount = shortCount + 1;
+    shortCount = shortCount + 2;
     printf("add 1 and shortCount is %hd\n", shortCount);
 
     // Long long
