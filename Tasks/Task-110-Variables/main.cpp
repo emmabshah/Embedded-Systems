@@ -37,29 +37,29 @@ int main()
     printf("The character %c has the ASCII code %d\n", character, character);
 
     // Short
-    unsigned short shortCount = 32766;
-    printf("The value of shortCount is %hd\n", shortCount);
+    int shortCount = 32766;
+    printf("The value of shortCount is %d\n", shortCount);
     shortCount = shortCount + 2;
-    printf("add 1 and shortCount is %hd\n", shortCount);
+    printf("add 2 and shortCount is %d\n", shortCount);
 
     // Long long
     long long NN = 0x12345678ABCD0001LL; //Literal in HEX
-    printf("A very large number %lld\n", NN);
+    printf("A very large number %11d\n", NN);
     printf("A very large number in hex %llX\n", NN);
 
     // unsigned
-    unsigned short p = 1; //16 bit
-    printf("unsigned int p = %u\n", p);
+    short p = 1; //16 bit
+    printf("int p = %u\n", p);
     p = p - 2;
-    printf("Subtract 2. Now unsigned int p = %u\n", p);
+    printf("Subtract 2. Now int p = %d\n", p);
 
     // float 
-    float pi_float = 3.1415926536;
-    printf("The value of pi is approximately %f\n", pi_float);
+    float pi_float = 3.14159265358979323846;
+    printf("The value of pi is approximately %.20f\n", pi_float);
 
     // double
-    double pi_double = 3.1415926536l;
-    printf("The value of pi is approximately %lf\n", pi_double);
+    double pi_double = 3.14159265358979323846l;
+    printf("The value of pi is approximately %.20lf\n", pi_double);
 
     // Data type sizes (in bytes)
     printf("Size of a char is %d bytes\n", sizeof(char));
