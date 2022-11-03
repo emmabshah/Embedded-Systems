@@ -48,7 +48,10 @@ int main()
 
         if (count > 0 ) {
             count -= 1;
+            disp = count;
         }
+
+
 
         //Wait for button B
         while (buttonB == 0) {
@@ -56,6 +59,7 @@ int main()
 
         if (count < 99 ) {
             count += 1;
+            disp = count;
         } 
 
         //Reset condition
